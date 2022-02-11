@@ -8,13 +8,17 @@
 ## 2. A brief (half-page or paragraph) project description answering these questions:
 - What is the domain of the application?  Describe it.
 - What aspects of the domain are modeled by the database?
-    - The domain of the application is a recreation centre. That is, we will focus on the data that is stored about aspects of a recreation centre ranging from membership accounts, programs offered, and building setup. The building setup for this particular recreation centre will include weight rooms, gyms, swimming pools, and skating arenas. There are multiple membership account options, including fitness centre access, gymnasium access, pool access, arena access, drop in, long-term membership with different rates depending on age (toddler, student, adult, elderly), and family deals. 
+The domain of the application is a recreation centre. That is, the application focuses on storage of data regarding management of a recreation centre, and the aspects associated with management. 
+     
+We will focus on the data that is stored ranging from management team, membership accounts, programs offered, and building setup. The building setup for this particular recreation centre will include multiple weight rooms, multiple gyms, an aquatic centre, and multiple skating rinks. 
+
+There are multiple membership account options, including fitness centre access, gymnasium access, pool access, arena access, drop in, long-term membership with different rates depending on age (toddler, student, adult, elderly), and family deals. 
 
 
 ## 3. Database specifications: (3-5 sentences)
 - What benefit does the database provide to the application?
-    - The database facilitates data access, addition, deletion, updates, and maintaining of the appliation using entities and relationships. 
-    - The database will have hierarchies (ISA hierarchy) and several relationships (weak entity relationships, various cardinalities) to accurately and efficiently represent the types of data and relationships within the recreation centre. 
+    - The database facilitates data access, addition, deletion, updates, and maintaining of the appliation using entities and relationships. This is especially important in management of people (i.e. employees and members).
+    - The database will have hierarchies (ISA hierarchy) and several relationships (e.g.  various cardinalities) to accurately and efficiently represent the types of data and relationships within the recreation centre. 
 
 - What functionality will the database provide?
     - This database allows for easier management of the different components of a recreation center.
@@ -40,11 +44,12 @@ diagram (e.g., draw.io, GoogleDraw, Microsoft Visio, Gliffy, maybe Word, etc.) T
         - Staff
             - Lifeguards
             - Manager
-            - Front desk 
+            - Front desk employee
             - Volunteer
             - Program instructors 
-        - Fitness centre (work-out gym)
-        - Pool 
+        - Customer
+        - Fitness centre (weight room)
+        - Aquatic Ccentre
         - Membership
             - Fitness centre access
             - Gymnasium access
@@ -57,7 +62,7 @@ diagram (e.g., draw.io, GoogleDraw, Microsoft Visio, Gliffy, maybe Word, etc.) T
             - Personal trainer program
             - Weekly intermurals
             - 
-        - Arena (rink)
+        - Skating Rink
         - Events
             - One-time events
             - Recurring events         
@@ -69,7 +74,6 @@ diagram (e.g., draw.io, GoogleDraw, Microsoft Visio, Gliffy, maybe Word, etc.) T
         - watches over
         - works in
         - manages
-        - uses (equipment)
         - is bundled in (family plan)
         - is part of (program?)
         - volunteers for 
